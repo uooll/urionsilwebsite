@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+body{
+    margin: 0px
+}
+
+header{
+    width: 100%;
+    height: 126px;
+    display: flex;
+    justify-content: center;
+    background-color: #ebc8c8;
+}
+
+#header{
+    width: 1060px;
+    margin: 0px  auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 340px;
+}
+
+#menuBar{
+    width: 520px;
+    height: 120px;
+    display: flex;
+    padding-top: 30px;
+    align-items: center;
+    align-content: center;
+    font-size: 20px;
+    color: white;
+}
+#menu01{
+    color: #9b6d6d;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    width: 100%;
+    padding: 0px;
+    justify-content: space-around;
+}
+ul li{
+    display: inline-flex;
+}
+ul li:hover{
+    color: #9b6d6d;
+}
+
+#login{
+    width: 140px;
+    height: 35px;
+    display: flex;
+    margin-top: 70px;
+    font-size: 20px; padding-top: 9px;
+    color: rgba(196, 53, 56, 0.5);
+    justify-content: center;
+    background-color: white
+    
+}
+.gap1{
+    margin: 300px;
+}
+body{
+    margin: 0px;
+    user-select: none;
+}
+
+.Sns{
+    display: flex;
+    justify-content: center;
+    margin: 150px;
+}
+
+
+#footerBox{
+    width: 100%;
+    height: 333px;
+    margin-top: 700px;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    justify-content: center;
+}
+
+
+h4{
+    padding: 50px;
+}
